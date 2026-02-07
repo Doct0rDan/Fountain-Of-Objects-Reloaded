@@ -45,12 +45,12 @@ public class Helper
         Console.WriteLine("cient Rooms. Maelstroms will sweep you some -");
         Console.WriteLine("where else in the Catacombs. Pitrooms have a ");
         Console.WriteLine("weak floor, so that you will perish in the   ");
-        Console.WriteLine("darkness of their Pits, if you begin your    ");
+        Console.WriteLine("darkness of their Pits, if you begin a 2nd    ");
         Console.WriteLine("round in one of them. Type 'interact' in the ");
         Console.WriteLine("Fountain Room to activate the Fountain. If   ");
         Console.WriteLine("you're able to make it back to the Entrance  ");
         Console.WriteLine("after you've activated the fountain, you win!");
-        Console.WriteLine("");
+        Console.WriteLine();
         Console.WriteLine("PS.: i dont know if this has any importance. ");
         Console.WriteLine("for your undergoing, but there are vicious.  ");
         Console.WriteLine("Amaroks roaming the caverns below... You will");

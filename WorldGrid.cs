@@ -1,5 +1,8 @@
 using System.Numerics;
 // HALLO?
+
+
+//AHHHH!!!!! ICH CHECKE!!
 public class WorldGrid
 {
     Random rand = new();
@@ -93,7 +96,7 @@ public class WorldGrid
                     // Console.WriteLine("Spieler in Raum " + OccupiedRoom.Position );
                     Console.Write(
                     "[" + 
-                    player.Label + "(" +OccupiedRoom.RoomContents.ToString() + ")"
+                    player.Label
                     .PadRight(0, ' ').PadLeft(0, ' ') + 
                     "]"
                     );
