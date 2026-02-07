@@ -97,7 +97,7 @@ public class WorldGrid
                     Console.Write(
                     "[" + 
                     player.Label
-                    .PadRight(0, ' ').PadLeft(0, ' ') + 
+                    .PadRight(10, ' ').PadLeft(12, ' ') + 
                     "]"
                     );
 
@@ -205,7 +205,7 @@ public class WorldGrid
             if (GridAsArray[pitRow,pitCol].RoomContents == RoomContents.Empty)
             {
                 GridAsArray[pitRow,pitCol] = new PitRoom(this, pitRow,pitCol);
-                Console.WriteLine("PitRoom created at: " + GridAsArray[pitRow,pitCol].Position + ", Generator");
+                //Console.WriteLine("PitRoom created at: " + GridAsArray[pitRow,pitCol].Position + ", Generator");
             }
         }
         
@@ -221,7 +221,7 @@ public class WorldGrid
             if (GridAsArray[newRow,newCol].RoomContents == RoomContents.Empty)
             {
                 GridAsArray[newRow,newCol] = new MaelstromRoom(this, newRow,newCol);
-                Console.WriteLine("MaelstromRoom created at: " + GridAsArray[newRow,newCol].Position + ", Generator");
+                //Console.WriteLine("MaelstromRoom created at: " + GridAsArray[newRow,newCol].Position + ", Generator");
             }
         }
     }
@@ -236,7 +236,7 @@ public class WorldGrid
             if (GridAsArray[newRow,newCol].RoomContents == RoomContents.Empty)
             {
                 GridAsArray[newRow,newCol] = new AmarokRoom(this, newRow,newCol);
-                Console.WriteLine("MaelstromRoom created at: " + GridAsArray[newRow,newCol].Position + ", Generator");
+                //Console.WriteLine("MaelstromRoom created at: " + GridAsArray[newRow,newCol].Position + ", Generator");
             }
         }
     }
@@ -266,7 +266,7 @@ public class WorldGrid
     private void HandleRoomEvents(Player player)
     {
         Helper.DrawLine(Rows);
-        OccupiedRoom.OnEnter(player);
+        OccupiedRoom?.OnEnter(player);
     }
 
     private void VisibleEventSounds(Player player)
