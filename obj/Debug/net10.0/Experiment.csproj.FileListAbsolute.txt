@@ -12,3 +12,4 @@
 /Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.pdb
 /Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.genruntimeconfig.cache
 /Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/ref/Experiment.dll
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.sourcelink.json
