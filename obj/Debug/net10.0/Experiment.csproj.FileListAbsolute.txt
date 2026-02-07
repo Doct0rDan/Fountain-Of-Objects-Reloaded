@@ -1,0 +1,14 @@
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.AssemblyInfoInputs.cache
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.AssemblyInfo.cs
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.csproj.CoreCompileInputs.cache
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/bin/Debug/net10.0/Experiment
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/bin/Debug/net10.0/Experiment.deps.json
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/bin/Debug/net10.0/Experiment.runtimeconfig.json
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/bin/Debug/net10.0/Experiment.dll
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/bin/Debug/net10.0/Experiment.pdb
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.dll
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/refint/Experiment.dll
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.pdb
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/Experiment.genruntimeconfig.cache
+/Users/dennis/Documents/Code Sharepoint/C#/Experiment/obj/Debug/net10.0/ref/Experiment.dll
