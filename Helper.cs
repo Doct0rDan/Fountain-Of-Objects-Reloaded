@@ -76,6 +76,7 @@ public class Helper
         Console.WriteLine("+++++++++++++++++++++++");
         Console.WriteLine("+++++++YOU DIED!+++++++");
         Console.WriteLine("+++++++++++++++++++++++");
+        Console.WriteLine();
 
         DisplayGameTime(gameEntry);
 

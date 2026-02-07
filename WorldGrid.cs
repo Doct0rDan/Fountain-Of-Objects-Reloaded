@@ -15,7 +15,7 @@ public class WorldGrid
     public FountainRoom? FountainRoom {get; private set;}
     public Room? OccupiedRoom { get; private set; }
     private List<Room> VisibleEventRooms { get; } = new();
-    int round = 0;
+    int round = 1;
 
     public DateTime GameEntry { get; protected set; }
 
@@ -31,9 +31,12 @@ public class WorldGrid
         Console.WriteLine("Round: " + round);
 
         int dim = AskGameSize();
+        
         Rows = dim;
         Columns = dim; 
         GridAsArray = new Room[dim,dim];
+
+        Console. Clear();
 
 
         FillGrid();
@@ -52,6 +55,8 @@ public class WorldGrid
                 Helper.DrawLine(Rows);
                 
                 player.AskAndDoPlayer(this); //
+
+                Console.Clear();
 
                 Helper.DrawLine(Rows);
 

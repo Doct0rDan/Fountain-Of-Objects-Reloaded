@@ -19,7 +19,9 @@ public partial class FountainRoom : EventRoom
         Console.WriteLine("+++++++++++++++++++++++");
         Console.WriteLine("++Fountain activated!++");
         Console.WriteLine("+++++++++++++++++++++++");
-        Console.WriteLine();
+        Console.WriteLine("Press any key to conitinue the journey, back to the entrance!");
+        Console.ReadKey();
+
     }
 
     public void FountainSound(Player player)
